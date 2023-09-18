@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Таблица</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form  method="POST" action="post_message.php">
+            <table border="1">
+                <tr>
+                    <td>Дата/Время</td>
+                    <td><input type="text" name="datetime" maxlength="20" value=""><br></td>
+                </tr>
+                <tr>
+                    <td>iButton</td>
+                    <td><input type="text" name="ibutton" maxlength="2" value=""><br></td>
+                </tr>
+                <tr>
+                    <td>Состояние</td>
+                    <td><input type="text" name="alarm" maxlength="10" value=""><br></td>
+                </tr>
+                <tr>
+                    <td>Охрана</td>
+                    <td><input type="text" name="arm" maxlength="10" value=""><br></td>
+                </tr>
+                <tr>
+                    <td>Дверь</td>
+                    <td><input type="text" name="door" maxlength="10" value=""></td>
+                </tr>
+                <tr>
+                    <td>Питание</td>
+                    <td><input type="text" name="power" maxlength="5" value=""></td>
+                </tr>
+                <tr>
+                    <td>Аккум</td>
+                    <td><input type="text" name="accu" maxlength="3" value=""></td>
+                </tr>
+                <tr>
+                    <td>Температура</td>
+                    <td><input type="text" name="temp" maxlength="6" value=""></td>
+                </tr>
+                <tr>
+                    <td>Влажность</td>
+                    <td><input type="text" name="humidity" maxlength="7" value=""></td>
+                </tr>
+                <tr>
+                    <td>CO</td>
+                    <td><input type="text" name="CO" maxlength="6" value=""></td>
+                </tr>
+                <tr>
+                    <td>CO2</td>
+                    <td><input type="text" name="CO2" maxlength="6" value=""></td>
+                </tr>
+                <tr>
+                    <td>Воздух</td>
+                    <td><input type="text" name="integ" maxlength="5" value=""></td>
+                </tr>
+                <!"Humidity;Temp;Press;CO;Alcohol;CO2;Tolueno;Ammoniy;Aceton;integrally;Attention!;">
+            </table>
+            <input type="submit">
+        </form>
+
+    </body>
+</html>
